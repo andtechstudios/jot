@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>Andtech.Todo.Console</PackageId>
+		<PackageId>Andtech.Jot</PackageId>
 		<RepositoryUrl>https://github.com/andtechstudios/jot</RepositoryUrl>
 		<Copyright>"© $(CompanyName) $([System.DateTime]::Now.ToString(`yyyy`))"</Copyright>
 		<TargetFramework>net7.0</TargetFramework>
