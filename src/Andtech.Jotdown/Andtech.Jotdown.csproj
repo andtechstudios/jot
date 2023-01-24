@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>Andtech.Jot</PackageId>
-		<RepositoryUrl>https://github.com/andtechstudios/jot</RepositoryUrl>
+		<PackageId>Andtech.Jotdown</PackageId>
+		<RepositoryUrl>https://github.com/andtechstudios/jotdown</RepositoryUrl>
 		<Copyright>"© $(CompanyName) $([System.DateTime]::Now.ToString(`yyyy`))"</Copyright>
 		<TargetFrameworks>net7.0;net6.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
