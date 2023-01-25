@@ -29,8 +29,8 @@ if (!File.Exists(path))
 	var lines = string.Join(Environment.NewLine,
 		"---",
 		$"title: \"{today:MMMM} Week #{weekNumber}\"",
-		$"date: \"{ToUniversalIso8601(startOfWeek)}\"",
-		$"publishDate: \"{ToUniversalIso8601(endOfWeek)}\"",
+		$"date: {ToUniversalIso8601(startOfWeek)}",
+		$"publishDate: {ToUniversalIso8601(endOfWeek)}",
 		"---"
 	) + Environment.NewLine;
 	Directory.CreateDirectory(Path.GetDirectoryName(path));
