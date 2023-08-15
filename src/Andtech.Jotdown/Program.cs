@@ -19,7 +19,7 @@ var previousMonday = GetPreviousMonday(today);
 var nextMonday = GetPreviousMonday(today).AddDays(7);
 var startOfWeek = firstOfMonth > previousMonday ? firstOfMonth : previousMonday;
 var endOfWeek = lastOfMonth < nextMonday ? lastOfMonth : nextMonday;
-var weekNumber = GetWeekNumber(today);
+var weekNumber = GetWeekNumber(today) + 1;
 var timecode = $"{today.Year:0000}/{today.Month:00}/week{weekNumber}";
 var path = Path.Combine(journalDirectory, $"{timecode}.md");
 
